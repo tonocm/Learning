@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B49A4A6A1936706A005950E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49A4A691936706A005950E6 /* Main.storyboard */; };
 		B4AE2992192EB439002EE013 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4AE2991192EB439002EE013 /* Foundation.framework */; };
 		B4AE2994192EB439002EE013 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4AE2993192EB439002EE013 /* CoreGraphics.framework */; };
 		B4AE2996192EB439002EE013 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4AE2995192EB439002EE013 /* UIKit.framework */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B49A4A691936706A005950E6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B4AE298E192EB439002EE013 /* Miracle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Miracle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4AE2991192EB439002EE013 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B4AE2993192EB439002EE013 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -77,6 +79,7 @@
 		B4AE2985192EB438002EE013 = {
 			isa = PBXGroup;
 			children = (
+				B49A4A691936706A005950E6 /* Main.storyboard */,
 				B4AE2997192EB439002EE013 /* Miracle */,
 				B4AE29B0192EB43B002EE013 /* MiracleTests */,
 				B4AE2990192EB439002EE013 /* Frameworks */,
@@ -220,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B49A4A6A1936706A005950E6 /* Main.storyboard in Resources */,
 				B4AE299C192EB43B002EE013 /* InfoPlist.strings in Resources */,
 				B4AE29A4192EB43B002EE013 /* Images.xcassets in Resources */,
 			);
@@ -438,6 +442,7 @@
 				B4AE29BC192EB43C002EE013 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4AE29BD192EB43C002EE013 /* Build configuration list for PBXNativeTarget "MiracleTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +451,7 @@
 				B4AE29BF192EB43C002EE013 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
