@@ -20,6 +20,7 @@
 		B4AE29AD192EB43B002EE013 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4AE2995192EB439002EE013 /* UIKit.framework */; };
 		B4AE29B5192EB43C002EE013 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4AE29B3192EB43C002EE013 /* InfoPlist.strings */; };
 		B4AE29B7192EB43C002EE013 /* MiracleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AE29B6192EB43C002EE013 /* MiracleTests.m */; };
+		B4DFA3FF193A9338008E29F5 /* XYZAddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DFA3FE193A9338008E29F5 /* XYZAddToDoItemViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		B4AE29B2192EB43C002EE013 /* MiracleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MiracleTests-Info.plist"; sourceTree = "<group>"; };
 		B4AE29B4192EB43C002EE013 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B4AE29B6192EB43C002EE013 /* MiracleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiracleTests.m; sourceTree = "<group>"; };
+		B4DFA3FD193A9338008E29F5 /* XYZAddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZAddToDoItemViewController.h; sourceTree = "<group>"; };
+		B4DFA3FE193A9338008E29F5 /* XYZAddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZAddToDoItemViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 		B4AE2985192EB438002EE013 = {
 			isa = PBXGroup;
 			children = (
+				B4DFA3FD193A9338008E29F5 /* XYZAddToDoItemViewController.h */,
+				B4DFA3FE193A9338008E29F5 /* XYZAddToDoItemViewController.m */,
 				B49A4A691936706A005950E6 /* Main.storyboard */,
 				B4AE2997192EB439002EE013 /* Miracle */,
 				B4AE29B0192EB43B002EE013 /* MiracleTests */,
@@ -246,6 +251,7 @@
 			files = (
 				B4AE29A2192EB43B002EE013 /* XYZAppDelegate.m in Sources */,
 				B4AE299E192EB43B002EE013 /* main.m in Sources */,
+				B4DFA3FF193A9338008E29F5 /* XYZAddToDoItemViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
